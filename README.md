@@ -2,6 +2,13 @@
 
 [Model Context Protocol](https://modelcontextprotocol.io) server for whois lookups.
 
+**Demo**
+
+<video width="640" height="360" controls>
+  <source src="/media/cursor-demo.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 ## Overview
 
 This MCP server allows AI agents like Claude Desktop, Cursor, Windsurf,.. etc to perform WHOIS lookups and retrieve domain details. 
@@ -13,14 +20,16 @@ You can directly ask the AI to check if a domain is available, who owns it, when
 A WHOIS lookup is the process of querying a WHOIS database to retrieve registration details about a domain name, IP address, or autonomous system. It helps users find out who owns a domain, when it was registered, when it expires, and other important details.
 
 **What Information Can a WHOIS Lookup Provide?**
+
 When you perform a WHOIS lookup, you can retrieve details such as:
-✅ Domain Name – The specific domain queried
-✅ Registrar Name – The company managing the domain registration (e.g., GoDaddy, Namecheap)
-✅ Registrant Details – The name, organization, and contact details of the domain owner (unless protected by WHOIS privacy)
-✅ Registration & Expiry Date – When the domain was registered and when it will expire
-✅ Name Servers – The DNS servers the domain is using
-✅ Domain Status – Active, expired, locked, or pending deletion
-✅ Contact Information – Administrative, technical, and billing contacts (if not hidden)
+
+- Domain Name – The specific domain queried
+- Registrar Name – The company managing the domain registration (e.g., GoDaddy, Namecheap)
+- Registrant Details – The name, organization, and contact details of the domain owner (unless protected by WHOIS privacy)
+- Registration & Expiry Date – When the domain was registered and when it will expire
+- Name Servers – The DNS servers the domain is using
+- Domain Status – Active, expired, locked, or pending deletion
+- Contact Information – Administrative, technical, and billing contacts (if not hidden)
 
 ## Available Tools
 
@@ -38,7 +47,7 @@ When you perform a WHOIS lookup, you can retrieve details such as:
 Run the MCP server using npx:
 
 ```bash
-npx -y whois-mcp@latest
+npx -y @bharathvaj/whois-mcp@latest
 ```
 
 In your Cursor IDE
@@ -48,7 +57,7 @@ In your Cursor IDE
 3. Fill in the form:
    - Name: `Whois Lookup` (or any name you prefer)
    - Type: `command`
-   - Command: `npx -y whois-mcp@latest`
+   - Command: `npx -y @bharathvaj/whois-mcp@latest`
 
 
 **Installation - Project-specific**
@@ -62,7 +71,7 @@ Add an `.cursor/mcp.json` file to your project:
       "command": "npx",
       "args": [
         "-y",
-        "whois-mcp@latest"
+        "@bharathvaj/whois-mcp@latest"
       ]
     }
   }
@@ -87,7 +96,7 @@ Access the MCP settings by clicking “Edit MCP Settings” in Roo Code settings
       "command": "npx",
       "args": [
         "-y",
-        "whois-mcp@latest"
+        "@bharathvaj/whois-mcp@latest"
       ]
     }
   }
