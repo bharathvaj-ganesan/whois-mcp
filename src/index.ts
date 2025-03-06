@@ -9,7 +9,7 @@ import { green, red, yellow } from './utils.js'
 function registerTools(server: McpServer) {
   //TOOL: Domain whois lookup
   server.tool(
-    'whois.domain',
+    'whois_domain',
     'Looksup whois information about the domain',
     { domain: z.string().min(1) },
     async ({ domain }) => {
@@ -30,7 +30,7 @@ function registerTools(server: McpServer) {
 
   //TOOL: TLD whois lookup
   server.tool(
-    'whois.tld',
+    'whois_tld',
     'Looksup whois information about the Top Level Domain (TLD)',
     { tld: z.string().min(1) },
     async ({ tld }) => {
@@ -51,7 +51,7 @@ function registerTools(server: McpServer) {
 
   //TOOL: IP whois lookup
   server.tool(
-    'whois.ip',
+    'whois_ip',
     'Looksup whois information about the IP',
     { ip: z.string().ip() },
     async ({ ip }) => {
@@ -72,7 +72,7 @@ function registerTools(server: McpServer) {
 
   //TOOL: ASN whois lookup
   server.tool(
-    'whois.as',
+    'whois_as',
     'Looksup whois information about the Autonomous System Number (ASN)',
     { asn: z.string().regex(/^AS\d+$/i).transform(s => parseInt(s.slice(2))) },
     async ({ asn }) => {

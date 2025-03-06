@@ -32,10 +32,10 @@ When you perform a WHOIS lookup, you can retrieve details such as:
 
 | Tool                  | Description                                |
 | --------------------- | ------------------------------------------ |
-| `whois.domain`        | Looksup whois information about the domain |
-| `whois.tld`           | Looksup whois information about the Top Level Domain (TLD)    |
-| `whois.ip`            | Looksup whois information about the IP     |
-| `whois.as`            | Looksup whois information about the Autonomous System Number (ASN)     |
+| `whois_domain`        | Looksup whois information about the domain |
+| `whois_tld`           | Looksup whois information about the Top Level Domain (TLD)    |
+| `whois_ip`            | Looksup whois information about the IP     |
+| `whois_as`            | Looksup whois information about the Autonomous System Number (ASN)     |
 
 ## Using with Cursor
 
