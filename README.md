@@ -2,9 +2,13 @@
 
 [Model Context Protocol](https://modelcontextprotocol.io) server for whois lookups.
 
-**Demo**
+**Cursor IDE Demo**
 
 https://github.com/user-attachments/assets/57a82adc-3f30-453f-aabd-7138c2e6a21d
+
+**Claude Desktop Demo**
+
+https://github.com/user-attachments/assets/d30a1f45-fdaf-4280-80f2-d5d4fc9743b1
 
 ## Overview
 
