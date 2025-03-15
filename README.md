@@ -2,6 +2,10 @@
 
 [Model Context Protocol](https://modelcontextprotocol.io) server for whois lookups.
 
+<a href="https://glama.ai/mcp/servers/cwu9e3fcwg">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/cwu9e3fcwg/badge" alt="Whois MCP server" />
+</a>
+
 **Cursor IDE Demo**
 
 https://github.com/user-attachments/assets/57a82adc-3f30-453f-aabd-7138c2e6a21d
